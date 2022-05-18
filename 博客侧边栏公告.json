@@ -1,0 +1,52 @@
+<script type="text/javascript">
+    window.cnblogsConfig = {
+      info: {
+        name: 'TMJYH09', // 用户名
+        startDate: '2021-12-27', // 入园时间，年-月-日。入园时间查看方法：鼠标停留园龄时间上，会显示入园时间
+        avatar: 'https://pic.cnblogs.com/avatar/2703876/20220219215941.png', // 用户头像
+        blogIcon: 'https://pic.cnblogs.com/avatar/2703876/20220219215941.png',
+      },
+      banner: {
+        home: {
+            titleSource: 'one',
+            background: ['https://cdn.luogu.com.cn/upload/image_hosting/wvm2ar38.png'],
+        },
+        article:{
+            background: ['https://files.dbnuo.com/wallpaper/wallhaven-dg6pel.webp'],
+        }
+      },
+      footer: {
+        style: 1,
+      },
+      code: {
+        type: 'hljs',
+        options: {
+          macStyle: true,
+          line: true,
+        },
+      },
+      animate: {
+        homeBanner: {
+          enable: true,
+          options: {
+            radius: 15,
+          }
+        },
+        articleBanner: {
+          enable: true,
+        },
+        background: {
+          enable: true,
+        },
+      },
+      sidebar: { // 列表数据 ['导航名称', '链接', 'icon']
+        navList: [
+            ['My Luogu', 'https://www.luogu.com.cn/user/482728', 'icon-logo'],
+            ['My bilibili','https://space.bilibili.com/2078387026','icon-bilibili'],
+            ['My GitHub','https://github.com/TMJYH09','icon-github'],
+            ['cnblogs','https://cnblogs.com','icon-cnblogs'],
+        ],
+      },
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@v2.1.0/dist/simpleMemory.js" defer></script>
